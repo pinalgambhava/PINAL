@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int a,b,add,sub,prod,divi;
+printf("enter the values a,b");
+scanf("%d%d", &a,&b);
+add=a+b;
+printf("the sum of two umbers is %d\n",add);
+prod=a*b;
+printf("the product of two numbers is %d\n",prod);
+sub=a-b;
+printf("the difference of two numbers is %d\n",sub);
+divi=a/b;
+printf("the quotient of two numbers is %d\n",divi);
+return 0;
+}
